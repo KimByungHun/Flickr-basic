@@ -1,0 +1,16 @@
+{
+    "data" : [
+        {
+            "text" : "네이버",
+            "url" : "http://www.naver.com"
+        },
+        {
+            "text" : "네이트",
+            "url" : "http://www.nate.com"
+        },
+        {
+            "text" : "구글",
+            "url" : "http://google.com"
+        }
+    ]
+}
