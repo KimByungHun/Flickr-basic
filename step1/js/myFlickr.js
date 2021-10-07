@@ -85,10 +85,10 @@ $.ajax({
 })
 
 //리스트 버튼을 클릭했을때 레이어 팝업으로 큰 이미지 출력하기
-$("body").on("click", "#gallery ul li",function(e){
-    e.preventDefault();
+$("body").on("click", "#gallery ul li", function(e){
+    e.preventDefault(); 
 
-    let imgSrc = $(this).children("a").attr("href");
+    let imgSrc = $(this).children("a").attr("href"); 
 
     $("body").append(
         $("<div class='pop'>")
@@ -97,5 +97,8 @@ $("body").on("click", "#gallery ul li",function(e){
                 $("<span>").text("close")
             )
     )
+});
 
+$("body").on("click", ".pop span", function(){
+    $(".pop").remove(); 
 });
